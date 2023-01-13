@@ -1,0 +1,57 @@
+
+
+.home_page{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 5rem;
+padding-top: 5rem;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+input{
+    width: 250px;
+    height: 2rem;
+    margin-top: 0.3rem;
+    border-radius: 0.3rem;
+    padding-left: 10px;
+    font-size: large;
+    border: 0px;
+    
+}
+
+.booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+button{
+    width: 200px;
+    height: 3rem;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    background: #000;
+    color: aqua;
+}
+
+button:active{
+    background-color: rgb(29, 255, 183);
+    font-size:larger;
+    cursor: pointer;
+    color:#000;
+}
