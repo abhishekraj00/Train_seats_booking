@@ -1,4 +1,4 @@
-export const seats = [
+const seatsArr = [
   [
     { seat_no: 1, booked: false },
     { seat_no: 2, booked: false },
@@ -105,33 +105,5 @@ export const seats = [
   ],
 ];
 
-
-function generateFun(totalseat, row) {
-  let fullRow = Math.floor(totalseat / row);
-  let lastRowSeats = totalseat % row;
-  let arr = [];
-  let number = 1;
-
-  for (let i = 1; i <= fullRow; i++) {
-    let rowArr = [];
-    for (let j = 1; j <= row; j++) {
-      rowArr.push({ seat_no: number, booked: false });
-      number++;
-    }
-    arr.push(rowArr);
-  }
-  if (lastRowSeats) {
-    let rowArr = [];
-    while (lastRowSeats-- > 0) {
-      rowArr.push({ seat_no: number, booked: false });
-      number++;
-    }
-    arr.push(rowArr);
-  }
-  console.log(arr);
-  return arr;
-}
-
-const seatsArr = generateFun(80, 7);
 
 export default seatsArr;
