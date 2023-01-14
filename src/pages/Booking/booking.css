@@ -2,20 +2,128 @@
     width: 50px;
     height: 50px;
 
-    margin: 5px;
-    font-weight: 600;
+    margin: 3px;
+    padding: 2px;
+    font-weight: 500;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
+}
+.seats:active{
+   background-color: green;
 }
 
 .seats_container{
-    padding-left: 80px;
-    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 450px;
+    max-width: 400px;
 }
+
+h3{
+    text-align: center;
+    cursor: pointer;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+*{
+    text-align: center;
+}
+
+.Avilable{
+    width: 20px;
+    height: 20px;
+    background-color: #B3FFAE;
+}
+.Booked{
+    width: 20px;
+    height: 20px;
+    background-color: #D8D9CF;
+}
+.hint_text{
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+.Hint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+@media only screen and (min-width: 320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .seats{
+        width: 35px;
+        height: 35px;
+    }
+    .seats_container{
+        max-width: 300px;
+    }
+  
+  
+  }
+  @media only screen and (min-width: 481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .seats{
+        width: 40px;
+        height: 40px;
+    }
+    .seats_container{
+        max-width: 400px;
+    }
+    
+  }
+  @media only screen and (min-width: 641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .seats{
+        width: 40px;
+        height: 40px;
+    }
+    .seats_container{
+        max-width: 400px;
+    }
+  }
+  @media only screen and (min-width: 961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .seats{
+        width: 60px;
+        height: 60px;
+    }
+    .seats_container{
+        max-width: 500px;
+    }
+    
+  }
+  @media only screen and (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .seats{
+        width: 60px;
+        height: 60px;
+    }
+    .seats_container{
+        max-width: 500px;
+    }
+   
+  }
+  @media only screen and (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+    .seats{
+        width: 60px;
+        height: 60px;
+    }
+    .seats_container{
+        max-width: 500px;
+    }
+  }
+  
