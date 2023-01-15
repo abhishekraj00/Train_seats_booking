@@ -1,3 +1,5 @@
+
+//seat Array Data
 const seatsArr = [
   [
     { seat_no: 1, booked: false },

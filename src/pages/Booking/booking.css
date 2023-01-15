@@ -91,39 +91,9 @@ h3{
         height: 40px;
     }
     .seats_container{
-        max-width: 400px;
+        max-width: 350px;
     }
   }
-  @media only screen and (min-width: 961px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-    .seats{
-        width: 60px;
-        height: 60px;
-    }
-    .seats_container{
-        max-width: 500px;
-    }
-    
-  }
-  @media only screen and (min-width: 1025px) {
-    /* big landscape tablets, laptops, and desktops */
-    .seats{
-        width: 60px;
-        height: 60px;
-    }
-    .seats_container{
-        max-width: 500px;
-    }
-   
-  }
-  @media only screen and (min-width: 1281px) {
-    /* hi-res laptops and desktops */
-    .seats{
-        width: 60px;
-        height: 60px;
-    }
-    .seats_container{
-        max-width: 500px;
-    }
-  }
+ 
+
   

@@ -1,3 +1,4 @@
+// logic to cheack number of available Seats
 export const availableSeats = (arr) => {
   let c = 0;
   arr.forEach((item) =>
@@ -11,6 +12,7 @@ export const availableSeats = (arr) => {
   return c;
 };
 
+// logic to cheack number of booked Seats
 export const bookedSeats = (arr) => {
   let c = 0;
   arr.forEach((item) =>
@@ -24,18 +26,18 @@ export const bookedSeats = (arr) => {
   return c;
 };
 
+// function to booked seat as per desired
 export const changeSeatStatus = (arr = [[9]], noOfSeats) => {
-  let b = bookedSeats(arr);
   let a = availableSeats(arr);
   if (noOfSeats > a) {
     alert("Not Enough seats Avilable");
     return;
   }
 
+  // logic for getting exact seat to be booked
   for (let i = 0; i < arr.length; i++) {
+    //itrate on arrays to get seats avilabe;
     let avilableSeats = arr[i].filter((item) => item.booked === false).length;
-    console.log(avilableSeats);
-    console.log(+noOfSeats);
 
     if (avilableSeats === +noOfSeats) {
       for (let j = 0; j < arr[i].length && noOfSeats > 0; j++) {
@@ -47,6 +49,7 @@ export const changeSeatStatus = (arr = [[9]], noOfSeats) => {
     }
   }
 
+  //logic for getting seats booked if seats avilable more than desired seats
   for (let i = 0; i < arr.length; i++) {
     let avilableSeats = arr[i].filter((item) => item.booked === false).length;
 
@@ -59,10 +62,6 @@ export const changeSeatStatus = (arr = [[9]], noOfSeats) => {
       }
     }
   }
-
-  console.log(b);
-  console.log(a);
-  console.log("------");
   return arr;
 };
 

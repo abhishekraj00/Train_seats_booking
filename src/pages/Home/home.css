@@ -118,6 +118,7 @@ button:active {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .main_container_ticket {
     width: 960px;
+    height: 80vh;
     display: flex;
     justify-content: space-evenly;
     padding: 1rem;
