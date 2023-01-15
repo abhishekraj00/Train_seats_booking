@@ -1,3 +1,36 @@
+#Tickets Booking App
+
+<h2>Responsive Design Look</h2>
+
+
+![Beige New Product Mockup Now Available Facebook Post](https://user-images.githubusercontent.com/110536209/212559269-7f8a5173-4fdd-4b15-a3c4-378f36058c11.png)
+
+
+<h2>🔗  Hosted Link </h2>
+<b><a href="https://unstop-task-abhishek.vercel.app/">Click to View</a></b>
+
+<h2>✨ App Featcher </h2>
+
+<ul>
+<li><b>Row Prefrence</b> Seats will be booked on Row prefrence</li>
+<li><b>Tickets <= 7</b> User are not allowed to book tickets more than 7 in one day</li>
+<li><b>Responsive Design</b> App has beautiful Responsive Design as well</li>
+<li><b>Multiple Check</b> App has multiple checks and validation and proper Error Messages </li>
+</ul>
+
+<h2>☁️ Overview</h2>
+<p>Online tickets booking app where user can book tickets. I have build this assignment to show my Frontend skills </p>
+
+<hr>
+
+<h2>💾 Project Structure</h2>
+
+![Project Files Structure](https://user-images.githubusercontent.com/110536209/212560378-184a2e67-5c93-4446-8d01-1039fda3cbc4.png)
+
+
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
